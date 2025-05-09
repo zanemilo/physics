@@ -6,5 +6,5 @@
 ### Contents
 
 - [2D Coulomb's Law Electric Field](/Electric_Field/coulombs_law_electric_constant.py): Calculates and plots a dynamic visualization of the electric fields of two point charges in 2D space using Coulomb's law
-
+<img src="EF.png" alt="Electric Field" />
 
