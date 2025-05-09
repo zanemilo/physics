@@ -26,8 +26,8 @@ def compute_field(q1, q2, dist, grid_points):
     charges = np.array([q1, q2])
     positions = np.array([[-dist/2, 0.0], [dist/2, 0.0]])
 
-    x = np.linspace(-5, 5, grid_points)
-    y = np.linspace(-5, 5, grid_points)
+    x = np.linspace(-3, 3, grid_points)
+    y = np.linspace(-3, 3, grid_points)
     X, Y = np.meshgrid(x, y)
 
     Ex = np.zeros_like(X)
