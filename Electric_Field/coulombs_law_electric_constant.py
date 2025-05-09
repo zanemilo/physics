@@ -3,10 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider, CheckButtons
 from matplotlib.colors import Normalize
 
-# pick some reasonable min/max for |E|
-norm = Normalize(vmin=0, vmax=5e6)  
-# → forces your colorbar & arrows to map E_mag=0→blue, E_mag=5e6→yellow
-
+norm = Normalize(vmin=0, vmax=5e6)  # Normalization for color mapping
 
 # Coulomb constant
 k = 8.988e9  # N·m²/C²
