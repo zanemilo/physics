@@ -2,6 +2,21 @@
 ## This repository contains Python code for solving various physics problems using computational methods.
 ## Author: Zane M Deso
 
+## Setup
+
+### Creating and Activating a Python Virtual Environment
+
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+```
 
 ### Contents
 
